@@ -1,0 +1,38 @@
+* {
+  font-family: "Cabin";
+}
+.enunciado {
+  font-size: 14px;
+  max-width: 400px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+}
+input {
+  border: 0;
+  border-bottom: 1px solid #6f6f6f;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: rgb(232, 240, 254);
+}
+button {
+  justify-self: center;
+  align-self: center;
+  width: 150px;
+  height: 40px;
+  background-color: #00cc00;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #009900;
+}

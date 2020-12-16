@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+  font-weight: 500;
+}
+.container {
+  margin: 0 100px;
+}
+.curriculo-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #c4c4c4;
+  width: 500px;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 32px;
+}
+.foto img {
+  max-width: 80px;
+  border-radius: 40px;
+  border: 1px solid #c4c4c4;
+}
+.informacoes {
+  margin-left: 32px;
+  color: #a2a2a2;
+}
+.links {
+  margin-top: 32px;
+  max-width: 500px;
+}
+.links li {
+  text-decoration: none;
+  list-style: none;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.links li a {
+  text-decoration: none;
+  color: #212121;
+  pointer-events: none;
+  cursor: pointer;
+}
+.links li img {
+  max-width: 10px;
+  pointer-events: none;
+}
+.links h3 {
+  color: black;
+}
+.links h3 img {
+  max-width: 20px;
+}
+.links .exercicios {
+  display: none;
+}
+.links .exercicios.ativo {
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s all;
+}
+.links .exercicios a {
+  pointer-events: all;
+  cursor: pointer;
+}
+.links .exercicios a:hover {
+  background-color: #c4c4c4;
+}
+.links .exercicios img {
+  max-width: 20px;
+}
+.links .exercicios h5 {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 16px;
+}
+.links .exercicios a {
+  color: black;
+  font-weight: 700;
+  border-top: 1px solid #c4c4c4;
+  padding: 10px 2px;
+}
+.seta-invertida {
+  transform: rotate(180deg);
+}
+
+/*Ajusta tamanho*/
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}

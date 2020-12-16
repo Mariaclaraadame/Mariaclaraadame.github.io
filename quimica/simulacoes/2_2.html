@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../css/simulacoes.css" />
+  </head>
+  <body>
+    <div class="box massa-volume ativo">
+      <h1>
+        Massa (O)
+        <img
+          src="../../imagens/seta-transferencia.png"
+          alt="seta"
+          class="seta-transferencia1"
+        />
+        Volume(H2O)
+      </h1>
+      <form action="#">
+        <input type="text" id="massa" placeholder="Digite a massa" />
+        <button onclick="calculaMassaparaVolume()">
+          <img src="../../imagens/reacao-quimica.png" alt="reacao-quimica" />
+        </button>
+      </form>
+    </div>
+    <div class="box volume-massa desativo">
+      <h1>
+        Volume (H2O)
+        <img
+          src="../../imagens/seta-transferencia.png"
+          alt="seta"
+          class="seta-transferencia2"
+        />
+        Massa (O)
+      </h1>
+      <form action="#">
+        <input type="text" id="volume" placeholder="Digite o volume" />
+        <button onclick="calculaVolumeparaMassa()">
+          <img src="../../imagens/reacao-quimica.png" alt="reacao-quimica" />
+        </button>
+      </form>
+    </div>
+    <div class="resultado dados">
+      <p class="obs">Observação: Cálculos baseados nas Condições Normais de Temperatura e Pressão</p>
+        <p class="data"><b>Dados:</b> </br> Massa = ? </br> Volume = ? </br> Massa do Oxigênio = 16g </br> VolumeCNTP = 22.4L</p> </div>
+    <div class="resultado resposta">
+        Calculando...
+    </div>
+  </body>
+  <script src="../../js/simulacoes/2_2.js"></script>
+</html>

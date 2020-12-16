@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+footer {
+  background-color: #212121;
+  width: 100vw;
+  max-height: 100px;
+  margin-top: auto;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.8);
+}
+footer .logo-cefet {
+  text-align: center;
+}
+footer .logo-cefet img {
+  max-width: 150px;
+}
+footer .ano {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  padding-bottom: 5px;
+}
