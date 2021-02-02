@@ -12,3 +12,14 @@ document
     dropdown(e);
     inverteSeta(e);
   });
+function inverteSeta2(e) {
+  document
+    .querySelector(".segundo-trimestre .seta")
+    .classList.toggle("seta-invertida");
+}
+document
+  .querySelector(".segundo-trimestre")
+  .addEventListener("click", function (e) {
+    dropdown(e);
+    inverteSeta2(e);
+  });
