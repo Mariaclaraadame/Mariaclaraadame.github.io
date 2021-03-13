@@ -1,0 +1,27 @@
+body,
+* {
+  margin: 0;
+  font-family: Cabin;
+}
+.texto {
+  max-width: 1124px;
+  margin: 24px auto;
+}
+h3 {
+  color: indianred;
+  text-transform: capitalize;
+  letter-spacing: 0.05em;
+}
+li {
+  list-style: none;
+}
+.box {
+  border: 1px solid #d4d4d4;
+  margin: 24px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 0 0.5px black;
+  padding: 10px 12px;
+}
+.box p {
+  margin: 8px 0;
+}
