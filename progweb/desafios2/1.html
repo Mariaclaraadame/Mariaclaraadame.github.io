@@ -40,11 +40,6 @@
           $("#genero").val("");
           $("#autor").val("");
         });
-
-        $("#botao_apagar").click(function () {
-          $("#acervo").empty();
-        });
-
         $("input[name=salvar_bd]").click(function () {
           $(".livro").each(function (idx, obj) {
             let titulo = $(obj).children("td:nth-child(1)").text();
@@ -62,7 +57,6 @@
             console.log(acervoArray);
           });
         });
-
         $("#acervo").on("click", "img", function () {
           $(this).parents("#acervo tr").remove();
         });
@@ -96,7 +90,6 @@
         <th></th>
       </tr>
     </table>
-    <button id="botao_apagar">Limpar a lista</button>
     <br />
     <br />
     <form action="https://rafaelescalfoni.net/web/livros.php" method="post">
