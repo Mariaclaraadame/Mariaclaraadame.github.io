@@ -20,12 +20,10 @@ h1 {
   font-weight: 600;
   color: rgba(26, 18, 99);
 }
-
 h1 {
   padding: 0;
   margin: 0 0 12px;
 }
-
 fieldset {
   display: flex;
   flex-direction: column;
@@ -34,7 +32,6 @@ fieldset {
   border-color: rgba(26, 18, 99);
   height: 450px;
 }
-
 fieldset input,
 fieldset textarea,
 fieldset select {
@@ -45,17 +42,14 @@ fieldset select {
   width: 400px;
   padding: 4px 12px;
 }
-
 input::placeholder,
 textarea::placeholder,
 select {
   color: rgb(46, 39, 105);
 }
-
 fieldset textarea {
   height: 100px;
 }
-
 fieldset button,
 #btn {
   background-color: rgba(26, 18, 99);
@@ -67,28 +61,23 @@ fieldset button,
   border: none;
   outline: none;
 }
-
 fieldset button:hover,
 #btn:hover {
   background-color: rgb(50, 40, 134);
   cursor: pointer;
 }
-
 #btn {
   width: 100%;
   margin-top: 40px;
 }
-
 .table {
   display: flex;
   flex-direction: column;
 }
-
 th:not(:last-child) {
   background-color: #e4e4e4;
   padding: 2px 25px;
 }
-
 td:not(:last-child) {
   padding: 2px 25px;
   background-color: #f5f4f4;
