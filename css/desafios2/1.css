@@ -2,7 +2,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 0.01em;
 }
-
+body {
+  max-width: 500px;
+}
 .conteudo {
   display: flex;
   column-gap: 40px;
