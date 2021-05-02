@@ -23,3 +23,14 @@ document
     dropdown(e);
     inverteSeta2(e);
   });
+function inverteSeta3(e) {
+  document
+    .querySelector(".terceiro-trimestre .seta")
+    .classList.toggle("seta-invertida");
+}
+document
+  .querySelector(".terceiro-trimestre")
+  .addEventListener("click", function (e) {
+    dropdown(e);
+    inverteSeta3(e);
+  });
