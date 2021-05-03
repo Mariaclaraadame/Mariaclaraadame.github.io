@@ -7,6 +7,7 @@ $(function () {
     if (array2[tamanho - 1] == "") {
       array2.pop();
     }
+    console.log("arr", array2);
     $("#resultado").html(
       "<br>Valor minimo: " +
         minimo(array2) +
@@ -41,6 +42,10 @@ $(function () {
     return sem_repeticao.join(",");
   }
   function ordem_crescente(vetor) {
-    return vetor.sort().join(",");
+    return vetor
+      .sort(function (a, b) {
+        return a - b;
+      })
+      .join(",");
   }
 });
