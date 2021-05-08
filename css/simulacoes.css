@@ -17,6 +17,9 @@ form {
   max-width: 500px;
   justify-content: space-between;
 }
+form.large {
+  max-width: 700px;
+}
 .seta-transferencia1,
 .seta-transferencia2 {
   max-width: 20px;
@@ -62,6 +65,11 @@ button img:hover {
 }
 .resp {
   font-size: 22px;
+  font-weight: 600;
+  color: #0a8031;
+}
+.resp.small {
+  font-size: 18px;
   font-weight: 600;
   color: #0a8031;
 }
