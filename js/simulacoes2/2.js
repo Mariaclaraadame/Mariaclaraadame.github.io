@@ -8,7 +8,7 @@ $(function () {
     const solubilidade = 100 * (soluto / (solvente * 1000));
     const texto = `<p><b>1° passo: </b> Molaridade = Massa do soluto / Massa molar do soluto x Volume do solvente</p> 
                    <p><b>2° passo: </b> Molaridade = ${soluto} / (${massaMolarNB} x ${solvente})</p>  
-                   <p class="resp small">A concentração molar (molaridade) da solução é ${molaridade}</p>`;
+                   <p class="resp small">A concentração molar (molaridade) da solução é ${molaridade}.</p>`;
     if (soluto > solubilidade) {
       $(".resultado").html(
         `${texto} <p class="resp small">Havendo formação de corpo de fundo.</p>`
